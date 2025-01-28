@@ -13,18 +13,22 @@ Un juego de memoria de cartas construido con Next.js donde los jugadores deben e
 
 1. Clonar el repositorio
 ```bash
-git clone https://github.com/m0ramax/afp-uno.git
-cd afp-uno
+git clone https://github.com/m0ramax/memoafp.git
+cd memoafp
 ```
-2. Instalar Dependencias
+2. Definir variable entorno .env.local en la raíz del proyecto, de la siguiente forma
+```bash
+NEXT_PUBLIC_API_URL=https://challenge-uno.vercel.app/api/images
+```
+3. Instalar Dependencias
 ```bash
 npm install
 ```
-3. Ejecutar localmente
+4. Ejecutar localmente
 ```bash
 npm run dev
 ```
-4. Abrir
+5. Abrir
 ```bash
 http://localhost:3000
 ```
